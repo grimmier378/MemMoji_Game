@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Card Sets — MemMoji Manual</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="sidebar">
+    <h2>MemMoji Manual</h2>
+    <ul>
+      <li><a href="index.html">Welcome</a></li>
+      <li><a href="how-to-play.html">How to Play</a></li>
+      <li><a href="difficulty.html">Difficulty Levels</a></li>
+      <li><a href="scoring.html">Score System</a></li>
+      <li><a href="hints-highscores.html">Hints &amp; High Scores</a></li>
+      <li><a href="card-sets.html" class="active">Card Sets</a></li>
+    </ul>
+  </nav>
+  <main class="content">
+    <p><em>Last Updated: 2026-05-17</em></p>
+    <h1>Card Sets</h1>
+
+    <p>
+      Card sets change the visual style of your cards. The card back — the design you see on
+      face-down cards — and the card face — the background behind the emoji on face-up cards —
+      can both be customized.
+    </p>
+
+    <h2>Included Card Sets</h2>
+    <p>MemMoji ships with 2 card sets:</p>
+
+    <div class="cardset-gallery">
+      <div class="cardset-item">
+        <h4>Default</h4>
+        <img src="../media/cardsets/Default/back.png" alt="Default card back" class="cardset-thumb">
+        <span class="cardset-label">Back</span>
+        <br>
+        <img src="../media/cardsets/Default/face.png" alt="Default card face" class="cardset-thumb">
+        <span class="cardset-label">Face</span>
+      </div>
+      <div class="cardset-item">
+        <h4>Blue</h4>
+        <img src="../media/cardsets/Blue/back.png" alt="Blue card back" class="cardset-thumb">
+        <span class="cardset-label">Back</span>
+        <br>
+        <img src="../media/cardsets/Blue/face.png" alt="Blue card face" class="cardset-thumb">
+        <span class="cardset-label">Face</span>
+      </div>
+    </div>
+
+    <h2>Changing Card Sets</h2>
+    <p>
+      Open the Settings panel (gear icon or Escape key) and look for the <strong>Card Set:</strong>
+      dropdown. This only appears if more than one card set is installed. Click directly on the
+      card set name to open the dropdown and select a set — the cards update immediately. Your choice is saved automatically.
+    </p>
+
+    <h2>Installing Custom Card Sets</h2>
+    <ol>
+      <li>Find the <code>assets/CardSets/</code> folder inside the MemMoji directory.</li>
+      <li>Create a new folder inside <code>CardSets/</code> — this becomes the set's name (for example, <code>assets/CardSets/MyTheme/</code>).</li>
+      <li>Add two PNG images to the folder:
+        <ul>
+          <li><code>face.png</code> — shown on the front of matched and flipped cards</li>
+          <li><code>back.png</code> — shown on unflipped cards</li>
+        </ul>
+      </li>
+      <li>Restart MemMoji — the new set will appear in the dropdown.</li>
+    </ol>
+
+    <h3>Tips for card set images</h3>
+    <ul>
+      <li>Images can be any size — they're stretched to fit the card shape.</li>
+      <li>Semi-transparent or lightly textured images look best.</li>
+      <li>The card's background color still shows through (images are drawn at roughly 78% opacity).</li>
+      <li>Both images should have a similar aspect ratio to avoid distortion.</li>
+    </ul>
+
+    <h2>Emoji Categories</h2>
+    <p>
+      MemMoji includes 5 different emoji theme packs (categories), each with 100 unique emoji.
+      You can switch between categories in the Settings panel by clicking directly on the category name to open the dropdown — the change takes effect on your
+      next level. Categories include different themes like faces, animals, food, objects, and more.
+    </p>
+    <p>Your category choice is saved automatically.</p>
+
+    <div class="page-nav">
+      <a href="hints-highscores.html">&larr; Previous</a> &nbsp;|&nbsp;
+      <a href="index.html">Back to Welcome &rarr;</a>
+    </div>
+  </main>
+</body>
+</html>

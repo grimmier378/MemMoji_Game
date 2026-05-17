@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Score System — MemMoji Manual</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="sidebar">
+    <h2>MemMoji Manual</h2>
+    <ul>
+      <li><a href="index.html">Welcome</a></li>
+      <li><a href="how-to-play.html">How to Play</a></li>
+      <li><a href="difficulty.html">Difficulty Levels</a></li>
+      <li><a href="scoring.html" class="active">Score System</a></li>
+      <li><a href="hints-highscores.html">Hints &amp; High Scores</a></li>
+      <li><a href="card-sets.html">Card Sets</a></li>
+    </ul>
+  </nav>
+  <main class="content">
+    <p><em>Last Updated: 2026-05-16</em></p>
+    <h1>Score System</h1>
+
+    <p>
+      MemMoji tracks four categories of moves to show how well you're using your memory.
+      These aren't point scores — they're performance metrics that help you understand your
+      play style. The only competitive measure is your <strong>completion time</strong>, which
+      feeds into high scores (see <a href="hints-highscores.html">Hints &amp; High Scores</a>).
+    </p>
+
+    <h2>Remembered</h2>
+    <p>
+      You matched two cards, and the second card was one you had already flipped earlier in
+      this level. This means your memory is working — you saw it before, you remembered where
+      it was, and you went back for it. On the level complete screen, these pairs light up
+      <strong>green</strong>.
+    </p>
+
+    <h2>Guess</h2>
+    <p>
+      You matched two cards, but the second card had never been flipped before in this level.
+      You got lucky! Both cards are gone, which is great, but it didn't require any memory.
+      On the level complete screen, these pairs light up <strong>gold/yellow</strong>.
+    </p>
+
+    <h2>Forgot</h2>
+    <p>
+      You flipped two non-matching cards, but you had already seen the matching card for one
+      of your picks earlier in the level. You saw where it was but didn't connect it to your
+      current pick. Work on this: if you're getting lots of Forgets, slow down and think before picking.
+    </p>
+
+    <h2>Miss</h2>
+    <p>
+      You flipped two non-matching cards, and there was no visible matching information
+      available. This is expected, especially early in a level before you've seen many cards.
+      Misses aren't bad — you're gathering information!
+    </p>
+
+    <h2>Stats Tables</h2>
+    <p>The stats panel shows two tables during play:</p>
+    <ul>
+      <li><strong>Level Stats</strong> — counts just for the current level (resets each level)</li>
+      <li><strong>Session Stats</strong> — running total since you started playing (resets when you click New Game or jump to a lower level)</li>
+    </ul>
+    <p>The <strong>Levels</strong> column in Session Stats shows how many levels you've completed this session.</p>
+    <div class="note">
+      These metrics are for the current session only — they are not saved between play sessions.
+      The only persistent record is your completion time on the high score board.
+    </div>
+
+    <h2>Improving Your Play</h2>
+    <ul>
+      <li>Ideal play: all Remembered, no Forgot, minimal Miss</li>
+      <li>Reducing Forgot moves means you're making better use of your memory</li>
+      <li>Reducing Miss moves means you're being strategic about which cards to try</li>
+      <li>Faster completion time = higher ranking on the high score board</li>
+    </ul>
+
+    <div class="tip">
+      Watched a card get flipped and want to find its match? Click it first! If you know where
+      its pair is, that becomes a Remembered match — and you'll clear the board faster.
+    </div>
+
+    <div class="page-nav">
+      <a href="difficulty.html">&larr; Previous</a> &nbsp;|&nbsp;
+      <a href="hints-highscores.html">Next &rarr;</a>
+    </div>
+  </main>
+</body>
+</html>

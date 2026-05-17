@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>How to Play — MemMoji Manual</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="sidebar">
+    <h2>MemMoji Manual</h2>
+    <ul>
+      <li><a href="index.html">Welcome</a></li>
+      <li><a href="how-to-play.html" class="active">How to Play</a></li>
+      <li><a href="difficulty.html">Difficulty Levels</a></li>
+      <li><a href="scoring.html">Score System</a></li>
+      <li><a href="hints-highscores.html">Hints &amp; High Scores</a></li>
+      <li><a href="card-sets.html">Card Sets</a></li>
+    </ul>
+  </nav>
+  <main class="content">
+    <p><em>Last Updated: 2026-05-17</em></p>
+    <h1>How to Play</h1>
+
+    <h2>Starting the Game</h2>
+    <img src="../media/menu.png" alt="Title screen with difficulty buttons" class="screenshot">
+    <ol>
+      <li>Launch MemMoji — the title screen appears with the game logo.</li>
+      <li>Choose a difficulty: <strong>Easy</strong>, <strong>Normal</strong>, <strong>Hard</strong>, or <strong>Custom</strong> (tap or click the button).</li>
+      <li>The game board appears filled with face-down cards — let the fun begin!</li>
+    </ol>
+
+    <h2>Your Goal</h2>
+    <p>
+      Match every pair of cards on the board. Each card has one matching partner somewhere
+      on the board that shows the exact same emoji (or emoji combination). Find all the pairs
+      to complete the level!
+    </p>
+    <div class="tip">
+      The timer starts on your <em>first card flip</em> of each level, so take a moment to
+      look over the board before you begin.
+    </div>
+
+    <img src="../media/board_small.png" alt="Game board with face-down cards" class="screenshot">
+
+    <h2>Playing a Turn</h2>
+    <ol>
+      <li><strong>Flip a card</strong> — click any face-down card. It flips over to show its emoji.</li>
+      <li><strong>Flip a second card</strong> — click another face-down card. It also flips.</li>
+      <li><strong>If they match</strong> — great! Both cards are removed from the board. You found a pair!</li>
+      <li><strong>If they don't match</strong> — both cards stay visible for about 3 seconds so you can study them, then flip back face-down. Pay attention &mdash; you'll want to remember where they are!</li>
+      <li><strong>Shortcut</strong> — if you click any card during the 3-second wait, the mismatched cards flip back immediately so you can keep playing.</li>
+      <li>Repeat until all pairs are found.</li>
+    </ol>
+
+    <h2>Card Colors</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Color / Appearance</th>
+          <th>What It Means</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Tan (face-down)</td>
+          <td>Card is hidden — click to flip</td>
+        </tr>
+        <tr>
+          <td>Tan/cream (face-up)</td>
+          <td>Card is showing its emoji</td>
+        </tr>
+        <tr>
+          <td>Green flash</td>
+          <td>You just matched this pair!</td>
+        </tr>
+        <tr>
+          <td>Red flash</td>
+          <td>Not a match — will flip back</td>
+        </tr>
+        <tr>
+          <td>Pulsing gold border</td>
+          <td>A hint is pointing here — your match is nearby!</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>Completing a Level</h2>
+    <p>
+      When you find all the pairs, the level ends! The board reveals all your matched pairs
+      with color coding to show how well you remembered:
+    </p>
+    <ul>
+      <li><strong>Green</strong> — you remembered where you'd seen this card before. Great memory!</li>
+      <li><strong>Gold/yellow</strong> — you guessed correctly without having seen it before.</li>
+    </ul>
+    <img src="../media/lvl_complete.png" alt="Level complete screen with scores and color coding" class="screenshot">
+    <p>Your completion time is shown. Click the <strong>Next Level</strong> image button to continue to the next level. Next to it, the <strong>High Scores</strong> button lets you view a table of the top scores for the current level — this replaces the board area with a ranked table showing Name, Time, and Date. Click Cancel to close the table and return to the board view.</p>
+
+    <h2>Top Bar</h2>
+    <p>The bar at the top of the screen during play has image buttons for quick actions:</p>
+    <table>
+      <thead>
+        <tr>
+          <th>Button</th>
+          <th>What It Does</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Menu</td>
+          <td>Return to the difficulty select screen (asks for confirmation — choose New Game to confirm or Cancel to go back)</td>
+        </tr>
+        <tr>
+          <td>Settings (gear icon)</td>
+          <td>Pause the game and open the settings panel</td>
+        </tr>
+        <tr>
+          <td>Hint</td>
+          <td>Reveal the matching card for your currently flipped card (greyed out when unavailable)</td>
+        </tr>
+        <tr>
+          <td>Exit</td>
+          <td>Quit the game (always visible on the right side)</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>Settings Panel</h2>
+    <p>Open Settings by clicking the gear icon or pressing <strong>Escape</strong>. The game pauses while settings are open. The panel contains:</p>
+    <img src="../media/settings.png" alt="Settings panel with volume slider, dropdowns, and level picker" class="screenshot">
+    <ul>
+      <li><strong>Volume</strong> — a blue slider bar. Click or drag anywhere on the bar to adjust the sound effects volume. The current percentage is shown in the center.</li>
+      <li><strong>Card Set</strong> — click directly on the card set name to open a dropdown and select a different visual style (only shown if multiple sets are installed)</li>
+      <li><strong>Emoji Category</strong> — click directly on the category name to open a dropdown and switch between different emoji theme packs</li>
+      <li><strong>Jump To Level</strong> — type a level number or use the orange up/down arrow buttons to adjust, then click the green Go button to jump (up to 10 beyond your highest cleared level)</li>
+      <li><strong>Resume</strong> — close settings and continue playing</li>
+      <li><strong>New Game</strong> — return to the difficulty select screen (asks for confirmation)</li>
+      <li><strong>Exit</strong> — quit the game</li>
+    </ul>
+
+    <h2>Keyboard Shortcuts</h2>
+    <ul>
+      <li><strong>Escape</strong> — open/close Settings (pauses/resumes the game)</li>
+      <li><strong>F11</strong> — toggle fullscreen mode</li>
+    </ul>
+
+    <div class="page-nav">
+      <a href="index.html">&larr; Previous</a> &nbsp;|&nbsp;
+      <a href="difficulty.html">Next &rarr;</a>
+    </div>
+  </main>
+</body>
+</html>
