@@ -23,8 +23,9 @@ Flip cards to find matching emoji pairs. Boards grow larger and patterns become 
 ![Title Screen](Documentation/media/menu.png)
 
 **Features:**
+
 - 4 difficulty modes — Easy, Normal, Hard, and Custom
-- 500 Twemoji across 5 categories
+- 500 Noto Color Emoji across 5 categories
 - Cards can show 1–9 emoji per card at higher difficulties
 - 7 board sizes from 16 to 50 cards
 - 3 hints per level with pulsing gold border
@@ -46,6 +47,7 @@ Flip cards to find matching emoji pairs. Boards grow larger and patterns become 
 ![Game Board](Documentation/media/board_small.png)
 
 **Controls:**
+
 - **Click** a face-down card to flip it
 - **Escape** opens Settings (pauses the game)
 - **F11** toggles fullscreen
@@ -112,6 +114,6 @@ The full player manual is in the `Documentation/manual/` folder. Open `Documenta
 
 ## License
 
-Emoji graphics from [Twemoji](https://github.com/twitter/twemoji) (CC-BY 4.0).
+Emoji graphics from [Noto Color Emoji](https://github.com/googlefonts/noto-emoji) by Google (Apache License 2.0).
 
 [Back to Directory](#directory)
